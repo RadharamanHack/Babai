@@ -1,0 +1,52 @@
+.best-wishes-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  
+  .wishes-card {
+    position: relative;
+    width: 50%;
+    height: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .wishes-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./priru.jpg");
+    background-size: 70%;
+    opacity: 0.4;
+  }
+  h1 {
+    color: #ff69b4;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  
+    
